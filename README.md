@@ -6,19 +6,19 @@ It is a boilerplate project of integration tests along with visual & accessibili
   
 These tests are developed in JS with WebDriverIO and Cucumber
 
-Requirements
+# Requirements
 node >= 10.15.x - how to install Node
 npm >= 6.x - how to install npm
 
-Getting Started
+# Getting Started
 Install the dependencies:
 
-npm install
+# npm install
 In wdio.conf.js file configure the host of the Selenium Server hostname (default: localhost).
 
 You don't need to install selenium-server as we're using selenium-standalone-service in local conf.
 
-Run e2e tests:
+# Run e2e tests:
 
 gulp execute --config=local (to execute on local)
 gulp execute (to execute on browserstack (pipeline))
@@ -35,15 +35,15 @@ gulp execute --browserstacklocal=true --testfolder=visual (to execute on browser
 
 
 
-Reports
+## Reports
 
 CucuberJs-Json: is used to generate cucumber json report.
 multiple-cucumber-html-report: is used to generate html report for combined json.
 
 By default, report is generated in tests > reports > html folder and will be opened in browser once execution is done.
 
-Eslint
+## Eslint
 Run npm run lint
 
-Gherkin-lint :
+## Gherkin-lint :
 npm run glint
