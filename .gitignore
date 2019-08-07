@@ -1,0 +1,10 @@
+node_modules/
+.vscode
+tests/reports/accessibility-reports/
+tests/reports/json/
+tests/reports/html/
+tests/reports/xml/
+tests/reports/screenshots/
+tests/vrt-images/latest/actual/
+tests/vrt-images/latest/diff/
+test.js
