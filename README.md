@@ -6,6 +6,21 @@ It is a boilerplate project of integration tests along with visual & accessibili
   
 These tests are developed in JS with WebDriverIO and Cucumber
 
+# Features: 
+
+Framework: Cucumber
+Features:
+Page Object Pattern
+ES6 style class base with Babel support
+Chai
+Multiple reports (Spec, Dot, Html, Json)
+Visual regression tests (Image comparison service)
+Code formatter (Eslint)
+Gherkin Formatter (Gherkin-lint)
+Husky
+Accessibility tests (axe-core)
+BrowserStack Intehration
+
 # Requirements
 node >= 10.15.x - how to install Node
 npm >= 6.x - how to install npm
