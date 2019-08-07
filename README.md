@@ -8,18 +8,18 @@ These tests are developed in JS with WebDriverIO and Cucumber
 
 # Features: 
 
-  1. Framework: Cucumber
-  2. Features:
-  3. Page Object Pattern
-  4. ES6 style class base with Babel support
-  5. Chai
-  6. Multiple reports (Spec, Dot, Html, Json)
-  7. Visual regression tests (Image comparison service)
-  8. Code formatter (Eslint)
-  9. Gherkin Formatter (Gherkin-lint)
-  10. Husky
-  11. Accessibility tests (axe-core)
-  12. BrowserStack Intehration
+   Framework: Cucumber
+   Features:
+  1. Page Object Pattern
+  2. ES6 style class base with Babel support
+  3. Chai
+  4. Multiple reports (Spec, Dot, Html, Json)
+  5. Visual regression tests (Image comparison service)
+  6. Code formatter (Eslint)
+  7. Gherkin Formatter (Gherkin-lint)
+  8. Husky
+  9. Accessibility tests (axe-core)
+  10. BrowserStack Intehration
 
 # Requirements
 node >= 10.15.x - how to install Node
